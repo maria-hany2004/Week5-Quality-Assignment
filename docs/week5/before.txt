@@ -1,0 +1,34 @@
+Command:
+python -m ruff check week5/legacy_fees.py --statistics
+
+Total findings: 17
+
+PLR2004: 6
+F401: 2
+ARG001: 1
+B006: 1
+C901: 1
+E711: 1
+E712: 1
+F841: 1
+N802: 1
+PLR0913: 1
+PLR0917: 1
+
+Command:
+python -m pylint week5/legacy_fees.py
+
+Score: 4.86/10
+
+Findings:
+C0114: Missing module docstring
+C0116: Missing function docstrings (3)
+W0102: Dangerous default value []
+R0913: Too many arguments
+R0917: Too many positional arguments
+C0121: Incorrect boolean/None comparisons (2)
+W0613: Unused argument
+W0612: Unused variable
+C0103: Invalid function name
+E0606: Variable possibly used before assignment
+W0611: Unused imports (2)
